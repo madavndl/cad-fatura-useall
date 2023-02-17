@@ -1,0 +1,141 @@
+body {
+    background: white url(assets/background.png) center center no-repeat fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    position: relative;
+    display: flex;
+}
+
+/*/----------------------------------------------CAIXA BRANCA 1 -------------------------------------/*/
+#caixabranca1 {
+    position: relative;
+    height: 70vh;
+    width: 45vw;
+    margin-top: 6vh;
+    margin-left: 3.6%;
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 1px 0px 30px rgb(193, 192, 199);
+}
+
+@media (max-height:768px) {
+    #caixabranca1 {
+        height: 100vh;
+    }
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 6vh;
+    
+}
+
+#dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+input {
+    outline: none;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 1px solid #654fe098;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+::placeholder {
+    padding-left: 3%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+#paragrafo-titulo{
+   margin-top: 0px;
+}
+
+button {
+    width: 15vW;
+    height: 4vh;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background: rgb(48, 46, 46);
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #644FE0;
+}
+/*/----------------------------------------------CAIXA BRANCA 2 ----------------------------------------------------/*/
+#caixabranca2 {
+    position: relative;
+    height: 80vh;
+    width: 45vw;
+    margin-top: 6vh;
+    background-color: white;
+    margin-left: 1%;
+    border-radius: 10px;
+    box-shadow: 1px 0px 30px rgb(193, 192, 199);
+}
+
+@media (max-height:768px) {
+    #caixabranca2 {
+        height: 100vh;
+    }
+}
+
+span {
+    color: #644FE0;
+}
+
+
+img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+
+}
+
+#data {
+    font-size: 15px;
+}
+
